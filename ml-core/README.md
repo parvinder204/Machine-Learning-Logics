@@ -5,17 +5,6 @@ This project implements Linear Regression and Logistic Regression from scratch u
 The goal is to understand and implement the mathematical foundations of supervised learning algorithms, including loss computation, gradient calculation, and optimization.
 
 
-## Project Structure
-ml-core/
-│
-├── linear_regression.py
-├── logistic_regression.py
-├── losses.py
-├── optimizers.py
-├── metrics.py
-├── train.py
-└── README.md
-
 ## Implemented Algorithms
 
 ### 1. Linear Regression
