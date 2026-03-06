@@ -1,0 +1,116 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# AI / ML Artifacts
+models/
+checkpoints/
+artifacts/
+outputs/
+logs/
+runs/
+wandb/
+
+# Saved models
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.onnx
+*.tflite
+
+# TensorBoard
+tensorboard_logs/
+
+# Dataset Files
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Experiment Tracking
+mlruns/
+mlflow/
+wandb/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Caches
+.cache/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
