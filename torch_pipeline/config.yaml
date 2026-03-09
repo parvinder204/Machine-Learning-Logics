@@ -1,0 +1,20 @@
+training:
+  batch_size: 64
+  epochs: 20
+  learning_rate: 0.001
+
+scheduler:
+  type: step
+  step_size: 5
+  gamma: 0.5
+
+early_stopping:
+  patience: 5
+
+model:
+  type: cnn
+  hidden_size: 128
+
+paths:
+  checkpoint_dir: checkpoints
+  log_dir: logs
