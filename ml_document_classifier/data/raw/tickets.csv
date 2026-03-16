@@ -1,0 +1,61 @@
+text,label
+I cannot login to my account,account_issue
+payment failed but money deducted ,billing_issue
+How do I change my password,account_issue
+"refund not received,billing_issue",technical_issue
+application crashes on startup ,technical_issue
+cannot upload document ,technical_issue
+my account is locked after multiple attempts ,account_issue
+reset password link not working,account_issue
+I forgot my password and cannot access account,account_issue
+unable to update my profile details,account_issue
+account verification email not received,account_issue
+cannot change registered phone number,account_issue
+my account was suspended without reason,account_issue
+login page keeps refreshing,account_issue
+two factor authentication code not working,account_issue
+money deducted but order not confirmed,billing_issue
+charged twice for same transaction,billing_issue
+refund is still pending,billing_issue
+payment gateway showing error,billing_issue
+invoice not generated after payment,billing_issue
+subscription renewed without permission,billing_issue
+wrong amount charged from my card,billing_issue
+failed transaction but bank debited money,billing_issue
+cannot download payment receipt,billing_issue
+billing history not showing correctly,billing_issue
+automatic payment failed,billing_issue
+refund request rejected without explanation,billing_issue
+payment confirmation email not received,billing_issue
+transaction showing pending for long time,billing_issue
+app crashes when I open dashboard,technical_issue
+system shows blank screen after login,technical_issue
+error 500 when submitting form,technical_issue
+file upload fails with unknown error,technical_issue
+application freezes when clicking submit,technical_issue
+API returning server error,technical_issue
+page not loading properly on mobile,technical_issue
+slow performance while loading reports,technical_issue
+image upload not working,technical_issue
+export to pdf feature not working,technical_issue
+search functionality returning incorrect result,technical_issue
+notification system not triggering alerts,technical_issue
+error while connecting to server,technical_issue
+dashboard widgets not loading,technical_issue
+unable to download exported file,technical_issue
+system logs out automatically,technical_issue
+account settings page throws error,technical_issue
+password reset page crashes,technical_issue
+checkout page keeps loading,technical_issue
+payment status not updating after transaction,billing_issue
+refund initiated but not credited yet,billing_issue
+subscription payment not processed,billing_issue
+card declined but money deducted,billing_issue
+cannot cancel my subscription,billing_issue
+billing address update failed,billing_issue
+account login shows invalid credentials,account_issue
+security code for login not received,account_issue
+cannot access account after password change,account_issue
+username not recognized during login,account_issue
+account recovery process not working,account_issue
+login session expired immediately,account_issue
