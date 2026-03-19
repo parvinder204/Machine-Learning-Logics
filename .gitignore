@@ -66,6 +66,7 @@ wandb/
 *.joblib
 *.onnx
 *.tflite
+*.db
 
 # TensorBoard
 tensorboard_logs/
