@@ -1,0 +1,38 @@
+model:
+  name: "distilbert-base-uncased"   # Lightweight BERT — fast to train, great accuracy
+  num_labels: 5
+  max_length: 128
+  dropout: 0.3
+
+training:
+  batch_size: 32
+  epochs: 10
+  learning_rate: 2e-5
+  weight_decay: 0.01
+  warmup_steps: 100
+  val_split: 0.15
+  test_split: 0.10
+  seed: 42
+  early_stopping_patience: 3
+
+data:
+  raw_path: "data/raw/tickets.csv"
+  processed_path: "data/processed/"
+  label_map:
+    billing: 0
+    technical_issue: 1
+    account_access: 2
+    refund: 3
+    feature_request: 4
+
+inference:
+  model_path: "experiments/best_model"
+  confidence_threshold: 0.6
+
+mlflow:
+  experiment_name: "ticket-classifier"
+  tracking_uri: "experiments/mlflow"
+
+logging:
+  level: "INFO"
+  format: "json"
